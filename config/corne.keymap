@@ -91,19 +91,5 @@
    &none  &none  &none                                &none  &none  &none
                         >;
                 };
-
-                template_layer {
-// -----------------------------------------------------------------------------------------
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
-// |      |     |     |     |     |     |   |     |     |     |     |     |      |
-//                    |     |     |     |   |     |     |     |
-                        bindings = <
-   &trans &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-   &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-   &none  &none  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-   &none  &none  &none                         &none  &none  &none
-                        >;
-                };
         };
 };
