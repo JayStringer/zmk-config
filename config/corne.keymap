@@ -55,7 +55,7 @@
 //                    |     |     |     |   |  -  |SPACE|  =  |
                         bindings = <
    &none  &kp EXCL  &kp AT     &kp HASH  &kp DLLR   &kp PRCNT    &kp CARET  &kp LPAR  &kp RPAR  &kp COLON  &kp SEMI   &none
-   &none  &kp BSPC  &kp LCTRL  &kp LALT  &kp LSHFT  &kp FSLH     &kp BSLH   &kp LBKT  &kp RKBT  &kp APOS   &kp GRAVE  &none
+   &none  &kp BSPC  &kp LCTRL  &kp LALT  &kp LSHFT  &kp FSLH     &kp BSLH   &kp LBKT  &kp RBKT  &kp APOS   &kp GRAVE  &none
    &none  &kp DEL   &none      &none     &none      &none        &none      &none     &none     &none      &none      &none
    &none  &none  &trans                                          &kp MINUS &kp SPACE  &kp EQUAL
                         >;
@@ -84,9 +84,9 @@
 // |      | BT2 |     |     |     |     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
-   &trans  &bt BT_CLR   &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+   &trans &bt BT_CLR    &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
    &none  &bt BT_SEL 1  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
-   &none  &bt BT_SEL_2  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
+   &none  &bt BT_SEL 2  &none  &none  &none  &none    &none  &none  &none  &none  &none  &none
    &none  &none  &none                                &none  &none  &none
                         >;
                 };
